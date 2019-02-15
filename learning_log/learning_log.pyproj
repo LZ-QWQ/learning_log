@@ -30,6 +30,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="learning_logs\admin.py" />
+    <Compile Include="learning_logs\apps.py" />
+    <Compile Include="learning_logs\migrations\__init__.py" />
+    <Compile Include="learning_logs\models.py" />
+    <Compile Include="learning_logs\tests.py" />
+    <Compile Include="learning_logs\views.py" />
+    <Compile Include="learning_logs\__init__.py" />
     <Compile Include="manage.py" />
     <Compile Include="learning_log\__init__.py" />
     <Compile Include="learning_log\settings.py" />
@@ -37,9 +44,12 @@
     <Compile Include="learning_log\wsgi.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="db.sqlite3" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="learning_logs\" />
+    <Folder Include="learning_logs\migrations\" />
     <Folder Include="learning_log\" />
   </ItemGroup>
   <ItemGroup>
