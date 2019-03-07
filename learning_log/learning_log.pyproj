@@ -51,6 +51,7 @@
     <Content Include="learning_logs\templates\learning_logs\base.html" />
     <Content Include="learning_logs\templates\learning_logs\index.html" />
     <Content Include="learning_logs\templates\learning_logs\topics.html" />
+    <Content Include="learning_logs\templates\learning_logs\topic.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
