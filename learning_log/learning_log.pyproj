@@ -34,6 +34,9 @@
     <Compile Include="learning_logs\apps.py" />
     <Compile Include="learning_logs\migrations\__init__.py" />
     <Compile Include="learning_logs\models.py" />
+    <Compile Include="learning_logs\forms.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="learning_logs\tests.py" />
     <Compile Include="learning_logs\urls.py">
       <SubType>Code</SubType>
@@ -50,8 +53,10 @@
     <Content Include="db.sqlite3" />
     <Content Include="learning_logs\templates\learning_logs\base.html" />
     <Content Include="learning_logs\templates\learning_logs\index.html" />
+    <Content Include="learning_logs\templates\learning_logs\new_entry.html" />
     <Content Include="learning_logs\templates\learning_logs\topics.html" />
     <Content Include="learning_logs\templates\learning_logs\topic.html" />
+    <Content Include="learning_logs\templates\learning_logs\new_topic.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
