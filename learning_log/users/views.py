@@ -7,7 +7,7 @@ from django.contrib.auth.forms import UserCreationForm
 def logout_view(request):
     logout(request)
     return HttpResponseRedirect(reverse('learning_logs:index'))
-
+ 
 def register(request):
     if request.method!='POST':
         form=UserCreationForm()
