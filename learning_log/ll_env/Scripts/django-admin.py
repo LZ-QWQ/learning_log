@@ -1,4 +1,4 @@
-#!G:\Code\Python\learning_log\learning_log\learning_log\ll_env\Scripts\python.exe
+#!d:\python\learning_log\learning_log\ll_env\scripts\python.exe
 from django.core import management
 
 if __name__ == "__main__":

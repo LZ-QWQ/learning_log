@@ -39,19 +39,29 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'learning_logs',
-]
 
-MIDDLEWARE_CLASSES = [
+    'bootstrap3',
+
+    'learning_logs',
+    'users'
+]
+#魔鬼
+BOOTSTRAP3={
+    'include_jquery':True,
+    }
+#emmm我就插这里了
+LOGIN_URL='/users/login/'
+
+#有毒，只有这样才行，，原版本MIDDLEWARE_CLASSES
+MIDDLEWARE=[
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
-    'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-]
+    ]
 
 ROOT_URLCONF = 'learning_log.urls'
 
