@@ -61,7 +61,6 @@
     <Compile Include="users\__init__.py" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="db.sqlite3" />
     <Content Include="learning_logs\templates\learning_logs\base.html" />
     <Content Include="learning_logs\templates\learning_logs\edit_entry.html" />
     <Content Include="learning_logs\templates\learning_logs\index.html" />
