@@ -92,7 +92,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME':'lz_database_mysql',
         'USER':'lz_qaq',
-        'PASSWORD':'lz18825463589',
+        #'PASSWORD':'lz18825463589',
         'HOST':'127.0.0.1',
         'PORT':'3306'
     }
@@ -138,4 +138,3 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATIC_ROOT = posixpath.join(*(BASE_DIR.split(os.path.sep) + ['static']))
-print(STATIC_ROOT)
