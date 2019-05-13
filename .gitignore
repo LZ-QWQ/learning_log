@@ -262,4 +262,4 @@ __pycache__/
 
 #special
 ll_env/
-*.sqlite3
+*.sqlite3/
