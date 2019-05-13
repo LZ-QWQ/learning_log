@@ -1,0 +1,2 @@
+Requirement already satisfied: Django in c:\program files (x86)\microsoft visual studio\shared\python36_64\lib\site-packages (1.11.20)
+Requirement already satisfied: pytz in c:\program files (x86)\microsoft visual studio\shared\python36_64\lib\site-packages (from Django) (2018.4)
