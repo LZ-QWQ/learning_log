@@ -26,7 +26,7 @@ SECRET_KEY = '4d0e0070-10b9-447f-a9d1-6c815e27d4e1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost','127.0.0.1','104.27.147.23']
 
 
 # Application definition
@@ -84,13 +84,17 @@ TEMPLATES = [
 WSGI_APPLICATION = 'learning_log.wsgi.application'
 
 
-# Database
-# https://docs.djangoproject.com/en/1.9/ref/settings/#databases
+# Database 
+#Mysql host,port 默认
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME':'lz_database_mysql',
+        'USER':'lz_qaq',
+        'PASSWORD':'lz18825463589',
+        'HOST':'127.0.0.1',
+        'PORT':'3306'
     }
 }
 
@@ -134,3 +138,4 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATIC_ROOT = posixpath.join(*(BASE_DIR.split(os.path.sep) + ['static']))
+print(STATIC_ROOT)
